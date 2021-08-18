@@ -1,4 +1,4 @@
-package chapter2.ch01;
+package chapter2.ch02;
 
 public class Order {
 
