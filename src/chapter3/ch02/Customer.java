@@ -1,4 +1,4 @@
-package chapter3.ch01;
+package chapter3.ch02;
 
 public class Customer {
 

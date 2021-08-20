@@ -1,4 +1,4 @@
-package chapter3.ch01;
+package chapter3.ch03;
 
 public class CustomerTest {
     public static void main(String[] args) {
@@ -13,5 +13,10 @@ public class CustomerTest {
         customerKim.setCustomerId(10020);
         customerKim.bonusPoint = 10000;
         System.out.println(customerKim.showCustomerInfo());
+        
+        Customer vc = new VIPCustomer();
+        vc.setCustomerId(12345);
+        vc.setCustomerName("노네임");
+
     }
 }
