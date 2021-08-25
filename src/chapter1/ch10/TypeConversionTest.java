@@ -25,5 +25,11 @@ public class TypeConversionTest {
 
         System.out.println(iNum3);
         System.out.println("iNum4 = " + iNum4);
+
+        int myNum = 10;
+        int yourNum = 20;
+
+        myNum += yourNum;
+        System.out.println("myNum = " + myNum);
     }
 }
