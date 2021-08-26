@@ -3,7 +3,7 @@ package chapter5.ch03;
 public class MyListNode {
 
     private String data;
-    protected MyListNode next;
+    public MyListNode next;
 
     public MyListNode() {
         data = null;

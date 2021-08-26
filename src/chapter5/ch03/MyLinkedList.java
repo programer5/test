@@ -87,4 +87,12 @@ public class MyLinkedList {
         }
         System.out.println("");
     }
+
+    public boolean isEmpty() {
+        if (head == null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
