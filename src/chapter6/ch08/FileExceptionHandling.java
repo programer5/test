@@ -12,9 +12,9 @@ public class FileExceptionHandling {
         try(FileInputStream fis = new FileInputStream("a.txt")) {
             System.out.println("read");
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            e.printStackTrace(System.err);
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(System.err);
         }
         System.out.println("end");
     }
